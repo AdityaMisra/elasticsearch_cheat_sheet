@@ -513,7 +513,7 @@ curl -s -XGET -G 'http://127.0.0.1:9200/filebeat-*/misclog/_search' \
   jq '[.hits.hits[]._source.message]'
 ```
 
-
+##########################################################
 # Elasticsearch Cheatsheet - an overview of commonly used Elasticsearch API commands
 
 # cat paths
